@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Phonebook</title>
+    <link rel="stylesheet" href="phone.css">
+</head>
+<header class="header">
+    <nav>
+      <ul>
+        <li><a href="/index.html">About me</a></li>
+        <li><a href="/professional.html">Professional Experience</a></li>
+        <li><a href="/education.html">Education</a></li>
+        <li><a href="/Phonebook/index.html">Project 1</a></li>
+        <li><a href="/Package/index.html">Project 2</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+<body>
+    
+
+    <main>
+        <h1>Phonebook</h1>
+        <div id="output"></div>
+        <div>
+
+            <fieldset>
+                <legend>Add name and number</legend>
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" name="target" id="name">
+                </div>
+                <div>
+                    <label for="phone">Phone:</label>
+                    <input type="text" name="phone" id="phone">
+                </div>
+                <div>
+                    <input type="button" id="add" value="Add">
+                </div>
+
+            </fieldset>
+            <fieldset>
+                <legend>Search phone book</legend>
+                <div>
+                    <label for="target">Search for name:</label>
+                    <input type="text" name="target" id="target">
+                </div>
+                <div>
+                    <input type="button" id="search" value="Search">
+                    <input type="button" id="clear" value="Clear">
+                </div>
+            </fieldset>
+            <div class="clear"></div>
+        </div>
+
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="phone.js"></script>
+</body>
+
+</html>

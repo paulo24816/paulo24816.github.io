@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Package App</title>
+    <link rel="stylesheet" href="package.css">
+</head>
+
+<header class="header">
+    <nav>
+      <ul>
+        <li><a href="/index.html">About me</a></li>
+        <li><a href="/professional.html">Professional Experience</a></li>
+        <li><a href="/education.html">Education</a></li>
+        <li><a href="/Phonebook/index.html">Project 1</a></li>
+        <li><a href="/Package/index.html">Project 2</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+
+<body>
+    <main>
+        <h1>Package Distribution App</h1>
+        <div id="rightSide">
+            <div>
+                State:
+                <input type="text" id="target" >
+            </div>
+            <div>
+                <input type="button" id="search" value="Search">
+            </div>
+           <div id="output"></div>
+        </div>
+        <div>
+            <label>Package Details:</label>
+        </div>
+        <div>
+            <label for="pnum">Package #:</label>
+            <input type="text" name="pnum" id="pnum" disabled>
+        </div>
+        <div>
+            <label for="pid">Package ID:</label>
+            <input type="text" name="pid" id="pid" disabled>
+        </div>
+        <div>
+            <label for="city">Destination City:</label>
+            <input type="text" name="city" id="city" disabled>
+        </div>
+        <div>
+            <label for="state">Destination State:</label>
+            <input type="text" name="state" id="state" disabled>
+        </div>
+        <div>
+            <input type="button" id="first" value="<<">
+            <input type="button" id="previous" value="<">
+            <input type="button" id="next" value=">">
+            <input type="button" id="last" value=">>">
+        </div>
+        <div class="clear"></div>
+    </main>    
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="package.js"></script>
+</body>
+</html>
